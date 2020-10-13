@@ -1,0 +1,43 @@
+.upperbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: lightgreen;
+    box-shadow: 1px 1px 5PX;
+}
+.upperbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.upperbar a {
+    text-decoration: none;
+    color: slategray;
+}
+
+.upperbar h1 {
+    color: slategray;
+    font-size: 40px;
+    margin:0px 10px 0px 10px;
+}
+
+.upperbar ul li {
+    list-style: none;
+    size: 30px;
+    padding:5px 20px 5px 20px;
+    margin:0px 10px 0px 10px;
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: lightcyan;
+    box-shadow: 1px 1px 1PX;
+}
+
+.cuerpo {
+    background-color: lightcyan;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5PX;
+}
