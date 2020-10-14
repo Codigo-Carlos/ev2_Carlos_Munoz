@@ -54,7 +54,7 @@ export default {
             player.estado = 'normal';
         } else {
             if (player.vidas > 1){
-                player.vidas -= 1;
+                player.vidas = player.vidas-1;
             };
         };
         marioimage.innerHTML = `<img src="img/marioA.png" alt="">`;
