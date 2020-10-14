@@ -15,7 +15,7 @@ export default {
     <h2>Pass</h2>
     <input id = "txtpass" type="password" placeholder = "Contraseña" />
     <br><br>
-    <button onclick = "logear()">saludar</button>
+    <button onclick = "logear()">ingresar</button>
     <p id="resp"></p>
     <br>
     <div class="result" id = "salida">
@@ -25,14 +25,14 @@ export default {
     logear: function () {
     var login = document.getElementById('txtname').value;
     var pass = document.getElementById('txtpass').value;
-    var result = document.getElementById("result");
-    var arr = this.usuarios.filter((u) => u.login == login);
+    var result = document.getElementById("resp");
+    var arr = usuariosAR.filter((u) => u.login == login);
 
     if (arr.length == 0) {
       result.innerHTML = "Usuario no existe";
     } else {
 
-        var arr2 = this.usuarios.filter((u) => u.pass == pass);
+        var arr2 = usuariosAR.filter((u) => u.pass == pass);
             console.log(arr);
             if (arr2.length == 0) {
                 result.innerHTML = "Contraseña incorrecta";
