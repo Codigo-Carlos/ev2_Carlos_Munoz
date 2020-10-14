@@ -4,16 +4,28 @@ export default {
 
     data: `
     <h1>Autor: CARLOS MUNOZ </h1>
-    <br>
+    <div class="marioscreen">
+    <div>
     <p id = "vidas">TOTAL VIDAS: 3</p>
     <div class="marioimage" id = "mainimage">
     <img src="img/marioA.png" alt="">
     </div>
+    
+    </div>
+    
     <div class="botones">
     <button id = "btn1" onclick = "fire()"> flor </button>
     <button id = "btn2" onclick = "fly()"> Tanuki </button>
     <button id = "btn3" onclick = "lose()"> Pierde </button>
     </div>
+    
+    
+    
+    </div>
+
+    
+
+    
 
     `,
 

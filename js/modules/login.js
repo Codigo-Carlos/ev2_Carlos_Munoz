@@ -8,18 +8,16 @@ export default {
       {login:'ccortes',pass:123,nombre:'Cesar', apellido:"Cortes",fono:'3344555',cargo:'Chofer'},
     ],
     data: `
-    <h1>Autor: Carlos Muñoz </h1>
-    <br>
+    <h1>Autor: CARLOS MUNOZ </h1>
     <h2>Login</h2>
     <input id = "txtname" type="text" placeholder = "Nombre" />
     <h2>Pass</h2>
     <input id = "txtpass" type="password" placeholder = "Contraseña" />
     <br><br>
     <button onclick = "logear()">ingresar</button>
+    <br><br>
     <p id="resp"></p>
-    <br>
-    <div class="result" id = "salida">
-    </div>
+    
     `,
 
     logear: function () {
@@ -42,7 +40,7 @@ export default {
                 <p>Nombre: ${arr[0].nombre} </p>
                 <p>Fono:   ${arr[0].fono}   </p>
                 <p>Cargo:  ${arr[0].cargo}  </p> `;
-                resp.style.border = "solid";
+                resp.style.border = "solid 7px black"
               }
     }
     },
